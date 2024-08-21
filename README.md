@@ -135,7 +135,7 @@ This isn't even close to the number of medium to high profile bugs and exploits 
 
 One of the biggest unwritten assumptions in software development is that it is the responsibility of the programmer to fully understand exactly what the machine is doing at all times and from all perspectives. Based on the evidence above, this mindset is ultimately harmful, unsustainable, and quite frankly impossible to uphold. Ultimately this is because:
 - It's simply not possible to predict all the ways the code you write today will be used now and in the future.
-- [Turing completeness is everywhere](https://beza1e1.tuxen.de/articles/accidentally_turing_complete.html), where the more complex the system is, the higher probability it is that the system is Turing complete.
+- [Turing completeness](https://beza1e1.tuxen.de/articles/accidentally_turing_complete.html) [is everywhere](https://gwern.net/turing-complete), where the more complex the system is, the higher probability it is that the system is Turing complete.
 - Systems are becoming more complex, both internally (dependencies) and externally (integrations with other systems).
 - The field itself is enormous, it's not just "writing a program that works" anymore, it's "writing a program that works AND is always available AND is secure from known threats AND is easy to use AND is always accessible to everyone AND integrates with external services AND..."
     - I want to elaborate that my problem isn't that these things shouldn't be there, it's that these fields are both very wide and deep in content and knowledge: building up the prerequisite knowledge to do everything in the best possible way would require _decades_ of work, let alone _building_ such a system.
